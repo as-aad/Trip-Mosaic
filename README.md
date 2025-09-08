@@ -1,6 +1,6 @@
-# 🌍 Travel Application - Full Stack Project
+# 🌍 Travel Application - Full Stack CSE370 Project
 
-A comprehensive travel application built with React frontend and FastAPI backend, featuring destination exploration, travel buddy matching, carbon footprint calculation, and role-based user management.
+A comprehensive travel application built with React frontend and FastAPI backend, featuring destination exploration, destination wise Hotel , Guide , Restaurent booking all in one place ,role-based user management and local famous product finding etc.
 
 ![Travel App](https://img.shields.io/badge/React-18.3.1-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green) ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue) ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
 
@@ -15,7 +15,7 @@ A comprehensive travel application built with React frontend and FastAPI backend
 - **User Reviews & Ratings** - Rate destinations and read reviews
 
 ### 👥 **User Roles**
-- **Traveler** - Browse destinations, find travel buddies, write reviews
+- **Traveler** - Browse destinations, Find hotel,restaurent,guide, write reviews,make booking 
 - **Guide** - Manage guided tours and local experiences
 - **Restaurant Owner** - Manage restaurant listings and bookings
 - **Hotel Owner** - Manage hotel listings and reservations
@@ -269,7 +269,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 **Authors**
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Asad Chowdhury** - *Initial work* - [YourGitHub](https://(https://github.com/as-aad)
 
 ## 🙏 **Acknowledgments**
 
@@ -282,14 +282,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help:
 
-1. Check the [Issues](https://github.com/yourusername/project-bolt/issues) page
+1. Check the [Issues](https://github.com/as-aad/project-bolt/issues) page
 2. Create a new issue with detailed description
-3. Contact: your.email@example.com
+3. Contact: asaadchowdhury@gmail.com
 
 ---
 
 **Happy Traveling! 🌍✈️**
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/project-bolt?style=social)](https://github.com/yourusername/project-bolt)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/project-bolt?style=social)](https://github.com/yourusername/project-bolt)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/project-bolt)](https://github.com/yourusername/project-bolt/issues)
+[![GitHub stars](https://img.shields.io/github/stars/as-aad/project-bolt?style=social)](https://github.com/as-aad/project-bolt)
+[![GitHub forks](https://img.shields.io/github/forks/as-aad/project-bolt?style=social)](https://github.com/as-aad/project-bolt)
+[![GitHub issues](https://img.shields.io/github/issues/as-aad/project-bolt)](https://github.com/as-aad/project-bolt/issues)

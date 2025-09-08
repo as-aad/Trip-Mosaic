@@ -167,13 +167,16 @@ npm run dev
 ## 🎨 **Screenshots**
 
 ### **Homepage**
-![Homepage](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Travel+App+Homepage)
+<img width="1902" height="852" alt="Screenshot 2025-09-05 221923" src="https://github.com/user-attachments/assets/10e90f76-b0ce-422f-8760-75ccb37f36f1" />
 
-### **Destination Explorer**
-![Destination Explorer](https://via.placeholder.com/800x400/059669/FFFFFF?text=Destination+Explorer)
+
+### **Admin Dashboard**
+<img width="1911" height="901" alt="Screenshot 2025-09-06 020716" src="https://github.com/user-attachments/assets/29329a1e-aefc-458c-848b-46fe11de8a0e" />
+
 
 ### **User Dashboard**
-![User Dashboard](https://via.placeholder.com/800x400/DC2626/FFFFFF?text=User+Dashboard)
+<img width="1905" height="900" alt="Screenshot 2025-09-06 020827" src="https://github.com/user-attachments/assets/2bead27e-8400-4640-9f5b-9bc38f50bac8" />
+
 
 ## 🔧 **Development**
 

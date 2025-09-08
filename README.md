@@ -52,7 +52,6 @@ project-bolt/
 │   ├── package.json         # Frontend dependencies
 │   ├── vite.config.ts       # Vite configuration
 │   └── tailwind.config.js   # Tailwind CSS config
-├── 📄 USER_MANAGEMENT_SETUP.md  # User management guide
 └── 📄 README.md             # This file
 ```
 
@@ -269,7 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 **Authors**
 
-- **Asad Chowdhury** - *Initial work* - [YourGitHub](https://(https://github.com/as-aad)
+- **Asad Chowdhury** -(https://github.com/as-aad)
 
 ## 🙏 **Acknowledgments**
 

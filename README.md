@@ -32,8 +32,7 @@ A comprehensive travel application built with React frontend and FastAPI backend
 ## 🏗️ **Project Structure**
 
 ```
-project-bolt/
-├── 📁 backend/                 # FastAPI Backend
+📁 backend/                 # FastAPI Backend
 │   ├── 📁 app/                # Main application code
 │   │   ├── main.py           # FastAPI app and routes
 │   │   ├── models.py         # SQLAlchemy database models
@@ -44,7 +43,7 @@ project-bolt/
 │   ├── requirements.txt      # Python dependencies
 │   ├── alembic.ini          # Migration configuration
 │   └── README.md            # Backend documentation
-├── 📁 project/               # React Frontend
+📁 project/               # React Frontend
 │   ├── 📁 src/              # Source code
 │   │   ├── 📁 components/   # React components
 │   │   ├── 📁 services/     # API services

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { getCurrentUser, signOut, getDestinations, getGuidesByDestination, getHotelsByDestination, getRestaurantsByDestination, getDestinationReviews, getTravelerBookings } from '../services/api';
-import './TouristDashboard.css';
+
 // Import only the icons we actually use to reduce bundle size
 import { 
   MapPin, 

@@ -10,9 +10,6 @@ import jwt
 from datetime import datetime, timedelta, timezone
 import os
 
-@app.get("/")
-def health():
-    return {"status": "ok"}
 
 app = FastAPI(
     title="Travel Backend API",
@@ -84,6 +81,7 @@ def get_current_user(token_data: dict = Depends(verify_token), db: Session = Dep
             headers={"WWW-Authenticate": "Bearer"},
         )
     return user
+
 
 # Health check endpoint
 # SQL: No database query - simple status check

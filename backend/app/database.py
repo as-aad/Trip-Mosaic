@@ -3,12 +3,15 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from dotenv import load_dotenv
 import os
+from urllib.parse import quote_plus
+
+password = quote_plus("Asadchow@01")  
 
 # Load environment variables
 load_dotenv()
 
 # Get database URL from environment or use default for XAMPP
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+mysqlconnector://root:@localhost:3306/travel_db")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:[password]@db.ctoehvdmgavbundpjowo.supabase.co:5432/postgres")
 
 # Create SQLAlchemy engine
 engine = create_engine(DATABASE_URL)

@@ -8,7 +8,7 @@ import os
 load_dotenv()
 
 # Get database URL from environment or use default for XAMPP
-DATABASE_URL = os.getenv("DATABASE_URL", "mysql+mysqlconnector://root:@localhost:3306/travel_db")
+DATABASE_URL = os.getenv(postgresql://postgres:[Asadchow@01]@db.kvnbssqkneovdvutsfuk.supabase.co:5432/postgres)
 
 # Create SQLAlchemy engine
 engine = create_engine(DATABASE_URL)

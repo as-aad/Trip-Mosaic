@@ -10,7 +10,9 @@ import jwt
 from datetime import datetime, timedelta, timezone
 import os
 
-
+@app.get("/")
+def health():
+    return {"status": "ok"}
 
 app = FastAPI(
     title="Travel Backend API",

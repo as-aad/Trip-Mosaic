@@ -203,7 +203,14 @@ const SignIn: React.FC<SignInProps> = ({ onSignIn }) => {
                     Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">adminasad@gmail.com</span>
                   </p>
                   <p className="text-xs text-purple-600">
-                    Password: <span className="font-mono bg-purple-100 px-2 py-1 rounded">admin1234</span>
+                    Password: <span className="font-mono bg-purple-100 px-2 py-1 rounded">admin123</span>
+                  </p>
+                   <p className="text-xs text-purple-700 font-medium mb-2">🔑 Admin Access (Demo)</p>
+                  <p className="text-xs text-purple-600">
+                    Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">adminasad@gmail.com</span>
+                  </p>
+                  <p className="text-xs text-purple-600">
+                    Password: <span className="font-mono bg-purple-100 px-2 py-1 rounded">admin123</span>
                   </p>
                 </div>
               </div>

@@ -9,7 +9,7 @@ from urllib.parse import quote_plus
 load_dotenv()
 
 # Get database URL from environment or use default for XAMPP
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:[YOUR-PASSWORD]@db.ctoehvdmgavbundpjowo.supabase.co:5432/postgres")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres.ctoehvdmgavbundpjowo:[ASAADchowdhury!]@aws-1-ap-south-1.pooler.supabase.com:6543/postgres")
 
 # Create SQLAlchemy engine
 engine = create_engine(DATABASE_URL)

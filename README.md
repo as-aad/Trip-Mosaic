@@ -1,6 +1,9 @@
-# 🌍 Travel Application - Full Stack CSE370 Project
+# 🌍 Trip Mosaic — Full-Stack Travel Experience Platform
 
-A comprehensive travel application built with React frontend and FastAPI backend, featuring destination exploration, destination wise Hotel , Guide , Restaurent booking all in one place ,role-based user management and local famous product finding etc.
+Trip Mosaic is a production-ready, full-stack travel platform that unifies destination discovery, accommodation, dining, local guides, and travel services into a single role-based ecosystem.
+Built as part of CSE370 Course Project, the project emphasizes real-world architecture, scalability, and deployability, not just features.
+
+🔗 Live Application: https://trip-mosaic.vercel.app/
 
 ![Travel App](https://img.shields.io/badge/React-18.3.1-blue) ![FastAPI](https://img.shields.io/badge/FastAPI-0.104.1-green) ![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-blue) ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange)
 

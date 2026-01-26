@@ -1,5 +1,5 @@
 // API service for interacting with the backend
-const API_BASE_URL = 'https://trip-mosaic-2.onrender.com';
+const API_BASE_URL = 'https://trip-mosaic-2.onrender.com/users';
 
 // JWT Token management
 let authToken: string | null = localStorage.getItem('authToken');

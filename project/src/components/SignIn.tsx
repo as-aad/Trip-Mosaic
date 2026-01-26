@@ -198,19 +198,21 @@ const SignIn: React.FC<SignInProps> = ({ onSignIn }) => {
                 
                 {/* Admin Credentials */}
                 <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-4 border border-purple-200">
-                  <p className="text-xs text-purple-700 font-medium mb-2">🔑 Admin Access (Demo)</p>
+                  <p className="text-xs text-purple-700 font-medium mb-2">🔑 Test Access (Demo)</p>
                   <p className="text-xs text-purple-600">
-                    Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">adminasad@gmail.com</span>
+                   Admin Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">adminasad@gmail.com (Pass:admin123)</span>
                   </p>
                   <p className="text-xs text-purple-600">
-                    Password: <span className="font-mono bg-purple-100 px-2 py-1 rounded">admin123</span>
-                  </p>
-                   <p className="text-xs text-purple-700 font-medium mb-2">🔑 Admin Access (Demo)</p>
-                  <p className="text-xs text-purple-600">
-                    Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">adminasad@gmail.com</span>
+                    Tourist Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">tourist1@gmail.com (pass:tourist123)</span>
                   </p>
                   <p className="text-xs text-purple-600">
-                    Password: <span className="font-mono bg-purple-100 px-2 py-1 rounded">admin123</span>
+                    Guide Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">guide1@gmail.com (pass:guide123)</span>
+                  </p>
+                  <p className="text-xs text-purple-600">
+                    Restaurant Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">restaurantowner2@gmail.com (pass:resturantowner123)</span>
+                  </p>
+                   <p className="text-xs text-purple-600">
+                    Hotel Owner Email: <span className="font-mono bg-purple-100 px-2 py-1 rounded">hotelowner1@gmail.com (pass:hotelowner123)</span>
                   </p>
                 </div>
               </div>

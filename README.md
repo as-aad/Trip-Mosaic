@@ -76,69 +76,9 @@ Built as part of CSE370 Course Project, the project emphasizes real-world archit
 - **JWT** - Authentication
 - **bcrypt** - Password hashing
 
-## 🚀 **Quick Start**
-
-### **Prerequisites**
-- Node.js 18+ and npm
-- Python 3.8+
-- MySQL 8.0+
-
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/yourusername/project-bolt.git
-cd project-bolt
-```
-
-### **2. Backend Setup**
-```bash
-# Navigate to backend directory
-cd backend
-
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# Windows:
-venv\Scripts\activate
-# macOS/Linux:
-source venv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables
-# Create .env file with your database credentials:
-# DATABASE_URL=mysql+mysqlconnector://username:password@localhost:3306/travel_db
-# SECRET_KEY=your-secret-key-here
-
-# Create MySQL database
-mysql -u root -p
-CREATE DATABASE travel_db;
-
-# Run database migrations
-alembic upgrade head
-
-# Start the backend server
-uvicorn app.main:app --reload
-```
-
-### **3. Frontend Setup**
-```bash
-# Navigate to project directory (in a new terminal)
-cd project
-
-# Install dependencies
-npm install
-
-# Start the development server
-npm run dev
-```
-
-### **4. Access the Application**
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API Docs**: http://localhost:8000/docs
-
+### **Database**
+- **MySQL 8.0** - Local development
+- **PostgreSQL** - Production deployment (managed)
 ## 📚 **API Documentation**
 
 ### **Authentication Endpoints**
@@ -178,83 +118,15 @@ npm run dev
 ### **User Dashboard**
 <img width="1905" height="900" alt="Screenshot 2025-09-06 020827" src="https://github.com/user-attachments/assets/2bead27e-8400-4640-9f5b-9bc38f50bac8" />
 
-
-## 🔧 **Development**
-
-### **Backend Development**
-```bash
-cd backend
-# Run with auto-reload
-uvicorn app.main:app --reload
-
-# Run database migrations
-alembic revision --autogenerate -m "Description"
-alembic upgrade head
-
-# Run tests
-pytest
-```
-
-### **Frontend Development**
-```bash
-cd project
-# Start dev server
-npm run dev
-
-# Build for production
-npm run build
-
-# Run linting
-npm run lint
-```
-
-### **Database Management**
-```bash
-# Create new migration
-alembic revision --autogenerate -m "Your migration message"
-
-# Apply migrations
-alembic upgrade head
-
-# Rollback migration
-alembic downgrade -1
-```
-
-## 🧪 **Testing**
-
-### **Backend Testing**
-```bash
-cd backend
-# Install test dependencies
-pip install pytest pytest-asyncio httpx
-
-# Run tests
-pytest
-```
-
-### **Frontend Testing**
-```bash
-cd project
-# Install test dependencies
-npm install --save-dev @testing-library/react @testing-library/jest-dom
-
-# Run tests
-npm test
-```
-
 ## 📦 **Deployment**
 
-### **Backend Deployment**
-1. Set up production database
-2. Configure environment variables
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run migrations: `alembic upgrade head`
-5. Start server: `uvicorn app.main:app --host 0.0.0.0 --port 8000`
+-**Frontend**: Vercel
 
-### **Frontend Deployment**
-1. Build the project: `npm run build`
-2. Deploy the `dist` folder to your hosting service
-3. Configure API endpoints for production
+-**Backend**: Render
+
+-**Database**: PostgreSQL (Production)
+
+The system is fully deployable and environment-agnostic due to ORM-based database abstraction.
 
 ## 🤝 **Contributing**
 

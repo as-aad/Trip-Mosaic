@@ -1,5 +1,5 @@
 // API service for interacting with the backend
-export const API_BASE_URL = process.env.REACT_APP_API_URL;
+const API_BASE_URL = https://trip-mosaic-2.onrender.com;
 
 // JWT Token management
 let authToken: string | null = localStorage.getItem('authToken');
